@@ -1,7 +1,7 @@
 appPort: 8080
 appName: user
 externalSecrets:
-  enabled: true
+  enabled: false
 resources:
   limits:
     cpu: 1000m
