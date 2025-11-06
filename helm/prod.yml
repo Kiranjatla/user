@@ -2,12 +2,12 @@ appPort: 8080
 appName: user
 externalSecrets:
   enabled: true
-#resources:
-#  limits:
-#    cpu: 1000m
-#    memory: 1024Mi
-#  requests:
-#    cpu: 800m
-#    memory: 800Mi
-java:
-  xmx: "350m"
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1024Mi
+  requests:
+    cpu: 800m
+    memory: 800Mi
+#java:
+#  xmx: "350m"
